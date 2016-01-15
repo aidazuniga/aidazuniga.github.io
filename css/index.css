@@ -16,38 +16,36 @@ body {
 	width: 1160px;
 }
 
+.name-div {
+	width: 1170px;
+	height: 150px;
+	text-align: center;
+}
+
 .name {
-	margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
 	color: #FFFFFF;
 	text-align: center;
 	font-variant: small-caps;
 	font-size: 50pt;
 	font-weight: lighter;
-    position: absolute;
+    position: relative;
     top: 300px;
-    width: 90%;
+    width: 1170px;
 }
 
 .name-sub {
-	margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
     text-align: center;
     color: #B3B3B3;
-    position: absolute;
+    position: relative;
     top: 390px;
     font-variant: small-caps;
     font-size: 20px;
-    width: 90%;
+    width: 1170px;
 }
 
 .abouts {
 	position: relative;
-	top: 680px;
+	top: 500px;
 	text-align: center;
 	width: 1170px;
 	height: 400px;
