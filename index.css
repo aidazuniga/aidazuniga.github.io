@@ -1,0 +1,191 @@
+body {
+	background-image: url("../Pictures/back2.jpg");
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.outerBody {
+	/*border:1px #808080 solid;*/
+	margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.name {
+	margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+	color: #FFFFFF;
+	text-align: center;
+	font-variant: small-caps;
+	font-size: 50pt;
+	font-weight: lighter;
+    position: absolute;
+    top: 300px;
+    width: 90%;
+}
+
+.name-sub {
+	margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+    color: #B3B3B3;
+    position: absolute;
+    top: 390px;
+    font-variant: small-caps;
+    font-size: 20px;
+    width: 90%;
+}
+
+.abouts {
+	position: absolute;
+	top: 720px;
+	text-align: center;
+	width: 90%;
+	height: 400px;
+	/*border:1px #808080 solid;*/
+}
+.nav-refs {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.proj-list {
+	color: white;
+}
+
+.proj-refs {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 500pt;
+}
+
+/* navigations */
+
+.navigation {
+	text-align: center;
+	width: 100%;
+	font-size: 15px;
+}
+
+.nav-refs {
+	text-align: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-refs li {
+	display: inline;
+}
+
+.nav-refs a{
+	display: inline-block;
+	padding: 20px;
+}
+
+a:link, a:visited {
+	color: #B3B3B3;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a:hover, a:active {
+	color: #FFFFFF;
+}
+
+a.current {
+	font-weight: bold;
+	color: white;
+}
+
+/* lines */
+.home-line {
+	height: 1px;
+	border: 0;
+	width: 90%;
+	position: absolute;
+	background-color: #3A3A3A;
+	overflow: hidden;
+}
+
+.line1 {
+	top: 700px;
+}
+
+.line2 {
+	top: 1150px;
+}
+
+/* about */
+
+.home {
+	position: relative;
+	color: white;
+	font-size: 20px;
+}
+
+.home-about1 {
+	float: left;
+	width: 300px;
+	height: 250px;
+}
+
+.home-about2 {
+	float: center;
+	display: inline-block;
+	margin: 0 auto;
+	width: 300px;
+	height: 250px;
+	text-align: center;
+}
+
+.home-about3 {
+	float: right;
+	width: 300px;
+	height: 250px;
+}
+
+.uw-pic {
+	height: 50px;
+	width: 50px;
+	margin: 10px;
+	position: absolute;
+	left: -12px;
+}
+
+.pic {
+	border-radius: 50%;
+}
+
+.sub {
+	color: #B3B3B3;
+	text-align: left;
+	font-weight: 100;
+	font-size: 18px;
+}
+
+.title {
+	font-variant: small-caps;
+	text-align: center;
+}
+
+/* footer */
+.footer {
+	margin: 10px;
+	position: absolute;
+	top: 1190px;
+	width: 90%;
+	text-align: center;
+	color: white;
+	font-variant: small-caps;
+}
