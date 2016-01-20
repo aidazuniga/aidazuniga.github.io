@@ -60,7 +60,7 @@ body {
 
 .abouts {
 	position: absolute;
-	top: 1380px;
+	top: 1580px;
 	text-align: center;
 	width: 90%;
 	height: 400px;
@@ -90,7 +90,7 @@ body {
 .proj-list {
 	color: white;
 	position: absolute;
-	top: 400px;
+	top: 800px;
 }
 
 .proj-refs {
