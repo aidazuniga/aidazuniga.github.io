@@ -3,6 +3,11 @@ body {
     font-weight:bold; 
     font-size:20pt;
 }
+/* Outer Div */
+.outer {
+	width: 1160px; 
+}
+
 /* Topmatter */
 .topmatter {
     height:20px;    
