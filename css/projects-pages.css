@@ -54,7 +54,7 @@ body {
 	font-size: 25pt;
 	font-weight: lighter;
     position: absolute;
-    top: 590px;
+    top: 500px;
 	width: 1170px;
 }
 
@@ -71,7 +71,7 @@ body {
 .footer {
 	margin: 10px;
 	position: absolute;
-	top: 2410px;
+	top: 2010px;
 	width: 90%;
 	text-align: center;
 	color: white;
