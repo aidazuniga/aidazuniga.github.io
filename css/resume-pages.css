@@ -12,6 +12,8 @@ body {
     margin-bottom: 50px;
     margin-right: 50px;
     margin-left: 50px;
+	
+	width: 1160px;
 }
 
 .name-div {
@@ -176,7 +178,7 @@ a.current {
 
 object {
 	width: 600px;
-	height: 950px;
+	height: 850px;
 }
 
 /* about */
