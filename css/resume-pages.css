@@ -54,7 +54,7 @@ body {
 	font-size: 25pt;
 	font-weight: lighter;
     position: absolute;
-    top: 500px;
+    top: 650px;
 	width: 1170px;
 }
 
@@ -71,8 +71,8 @@ body {
 .footer {
 	margin: 10px;
 	position: absolute;
-	top: 1890px;
-	width: 90%;
+	top: 2090px;
+	width: 1170px;
 	text-align: center;
 	color: white;
 	font-variant: small-caps;
@@ -165,7 +165,7 @@ a.current {
 
 .resume-outer {
 	position: absolute;
-	top: 750px;
+	top: 550px;
 	width: 1160px;
 	text-align: center;
 	height: 1500px;
