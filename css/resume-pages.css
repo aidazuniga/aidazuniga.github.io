@@ -150,15 +150,15 @@ a.current {
 }
 
 .line1 {
-	top: 1400px;
-}
-
-.line2 {
 	top: 650px;
 }
 
+.line2 {
+	top: 1600px;
+}
+
 .line3 {
-	top: 350px;
+	top: 1900px;
 }
 
 /* resume */
