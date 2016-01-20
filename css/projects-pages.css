@@ -59,10 +59,10 @@ body {
 }
 
 .abouts {
-	position: absolute;
-	top: 1580px;
+	position: relative;
+	top: 1500px;
 	text-align: center;
-	width: 90%;
+	width: 1170px;
 	height: 400px;
 	/*border:1px #808080 solid;*/
 }
