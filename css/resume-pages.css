@@ -71,7 +71,7 @@ body {
 .footer {
 	margin: 10px;
 	position: absolute;
-	top: 2000px;
+	top: 2020px;
 	width: 1170px;
 	text-align: center;
 	color: white;
@@ -154,7 +154,7 @@ a.current {
 }
 
 .line2 {
-	top: 1350px;
+	top: 1500px;
 }
 
 .line3 {
