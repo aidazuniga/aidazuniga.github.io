@@ -60,7 +60,7 @@ body {
 
 .abouts {
 	position: relative;
-	top: 2300px;
+	top: 2500px;
 	text-align: center;
 	width: 1170px;
 	height: 400px;
@@ -71,7 +71,7 @@ body {
 .footer {
 	margin: 10px;
 	position: absolute;
-	top: 2950px;
+	top: 3150px;
 	width: 1170px;
 	text-align: center;
 	color: white;
@@ -154,11 +154,11 @@ a.current {
 }
 
 .line2 {
-	top: 2400px;
+	top: 2600px;
 }
 
 .line3 {
-	top: 2940px;
+	top: 3140px;
 }
 
 /* about */
