@@ -1,79 +1,62 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Aida Zuniga</title>
-	<link rel="stylesheet" type="text/css" href="/css/index.css">
-
-
-	<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
-	<script src="/js/index.js"></script>
-
-</head>
-<body>
-	<div class='outerBody'>
-
-		<div class='navigation'>
-			<ul class='nav-refs'>
-				<li class='nav-link'>
-					<a href="index.html"> Home </a>
-				</li>
-				<li class='nav-link'>
-					<a href="/pages/bio.html">  Bio </a>
-				</li>
-				<li class='nav-link'>
-					<a href="/pages/resources.html">  Resources </a>
-				</li>
-				<li class='nav-link'>
-					<a href="/pages/media.html">  Media </a>
-				</li>
-				<li class='nav-link'>
-					<a href="/pages/resume.html">  Resume </a>
-				</li>
-				<li class='nav-link'>
-					<a href="/pages/projects.html">  Projects </a>
-				</li>
-				<li class='nav-link'>
-					<a href="/pages/news.html">  News </a>
-				</li>
-				<li class='nav-link'>
-					<a href="/pages/contact.html">  Contact </a>
-				</li>
-			</ul>
+	<head>
+		<title>Aida Zuniga</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- make sures that displays the mobile version on mobile, desktop on desktop-->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/styles.css" rel="stylesheet">
+	</head>
+	<body>
+	
+		<div class='navbar navbar-inverse navbar-fixed-top'>
+			<div class='container-fluid'>
+			
+				<div class='navbar-header'>
+					<button type='button' class='navbar-toggle' data-toggle='collapse' data-target='#mainNavBar'>
+						<span class='icon-bar'></span>
+						<span class='icon-bar'></span>
+						<span class='icon-bar'></span>
+					</button>
+					<a href="#" class='navbar-brand'>Aida Zuniga</a>
+				</div>
+				
+				<!-- Menu items -->
+				<div class='collapse navbar-collapse' id='mainNavBar'>
+					<ul class="nav navbar-nav navbar-right">
+						<li class='active'><a href="#">Home</a></li>
+						<li><a href="pages/education.html">Education</a></li>
+						<li><a href="pages/projects.html">Projects</a></li>
+						<li><a href="pages/resume.html">Resume</a></li>
+						<li><a href="pages/resources.html">Resources</a></li>
+						<li><a href="pages/contact.html">Contact</a></li>
+					</ul>
+				</div>
+			</div>
 		</div>
 
-		<div class="name-div">
-			<div class='name'>Aida Zuniga</div>
-			<div class='name-sub'>Computer Science Student at the University of Waterloo</div>
+		</br ><br /><br /><br /><br />
+		
+		<div class='about about-pic'>
+			<img id='self-pic' src="img/aida.jpg" height="300" width="200">
 		</div>
 		
-		<hr class='home-line line1'>
-		<hr class='home-line line2'>
-
-		<div class='abouts'>
-			<div class='home-about1 home'>
-				<div class='about-a title'>About Me</div>
-				<div class='about-a sub'>
-					<p>....</p>
-				</div>
-			</div>
+		<br />
+		
+		<div class='about about-text'>
+			<p>Hi there! My name is Aida Zuniga.</p>
+			<p>I am a Computer Science student at the University of Waterloo.<p>
+			<p>...</p>
+			<p>...</p>
+			<p>...</p>
+			<p>...</p>
+			<p>...</p>
+			<p>...</p>
+			<p>...</p>
 			
-			<div class='home-about2 home'>
-				<div class='about-a title'>University of Waterloo</div>
-				<div class='uw-pic'>
-					<img src="/img/uw.png" class='pic' height="300" width="300">
-				</div>
-			</div>
-			
-			<div class='home-about3 home'>
-				<div class='about-a title'>Recent Work</div>
-			</div>
 		</div>
-
-		<div class='footer'>
-			<div class='navigation-footer'>
-			</div>
-			website by: aida zuniga | aida.zuniga.e@gmail.com
-		</div>
-	</div>
-</body>
+		
+		<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+		<script src='js/bootstrap.js'></script>
+	</body>
 </html>

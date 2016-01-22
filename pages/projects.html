@@ -1,110 +1,75 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Projects</title>
-	<link rel="stylesheet" type="text/css" href="/css/projects-pages.css">
-
-
-	<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
-	<script src="/js/index.js"></script>
-
-</head>
-<body>
-	<div class='outerBody'>
-
-		<div class='navigation'>
-			<ul class='nav-refs'>
-				<li class='nav-link'>
-					<a href="/../index.html"> Home </a>
-				</li>
-				<li class='nav-link'>
-					<a href="bio.html">  Bio </a>
-				</li>
-				<li class='nav-link'>
-					<a href="resources.html">  Resources </a>
-				</li>
-				<li class='nav-link'>
-					<a href="media.html">  Media </a>
-				</li>
-				<li class='nav-link'>
-					<a href="resume.html">  Resume </a>
-				</li>
-				<li class='nav-link'>
-					<a href="projects.html">  Projects </a>
-				</li>
-				<li class='nav-link'>
-					<a href="news.html">  News </a>
-				</li>
-				<li class='nav-link'>
-					<a href="contact.html">  Contact </a>
-				</li>
-			</ul>
-		</div>
-
-		<div class="name-div">
-			<div class='name'>Aida Zuniga</div>
-			<div class='subtitle'>PROJECTS</div>
+	<head>
+		<title>Aida Zuniga</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- make sures that displays the mobile version on mobile, desktop on desktop-->
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
+		<link href="../css/styles.css" rel="stylesheet">
+	</head>
+	<body>
+	
+		<div class='navbar navbar-inverse navbar-fixed-top'>
+			<div class='container-fluid'>
+			
+				<div class='navbar-header'>
+					<button type='button' class='navbar-toggle' data-toggle='collapse' data-target='#mainNavBar'>
+						<span class='icon-bar'></span>
+						<span class='icon-bar'></span>
+						<span class='icon-bar'></span>
+					</button>
+					<a href="../index.html" class='navbar-brand'>Aida Zuniga</a>
+				</div>
+				
+				<!-- Menu items -->
+				<div class='collapse navbar-collapse' id='mainNavBar'>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="../index.html">Home</a></li>
+						<li><a href="education.html">Education</a></li>
+						<li class='active'><a href="#">Projects</a></li>
+						<li><a href="resume.html">Resume</a></li>
+						<li><a href="resources.html">Resources</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+			</div>
 		</div>
 		
-		<hr class='home-line line1'>
-		<hr class='home-line line2'>
-		<hr class='home-line line3'>
+		<br /><br /><br /><br /><br />
+		<div class='about about-text'>
+			<p> Here is a list of my projects.</p>
+		</div>
 
 		<div class='proj-list'>
 			<div class='hangman-game'>
-				<a href="/../hangman/hangman.html"> Hangman Game </a>
+				<a href="../hangman/hangman.html"> Hangman Game </a>
 				<br><br>
-				<img src="/../hangman/hangman.png" height="300" width="600">
+				<img src="../hangman/hangman.png" height="300" width="600">
 			</div>
 
 			<div class='tower-game'>
 				<br>
-				<a href="/../tower/tower.html"> Tower of Hanoi Game </a>
+				<a href="../tower/tower.html"> Tower of Hanoi Game </a>
 				<br><br>
-				<img src="/../tower/tower.png" height="400" width="500">
+				<img src="../tower/tower.png" height="400" width="500">
 			</div>
 
 			<div class='mole-game'>
 				<br>
-				<a href="/../as/Mole.swf"> Whack-a-Mole Game </a>
+				<a href="../as/Mole.swf"> Whack-a-Mole Game </a>
 				<br><br>
-				<img src="/../img/mole.png" height="400" width="500">
+				<img src="../img/mole.png" height="400" width="500">
 			</div>
 			
 			<div class='pixar-game'>
 				<br>
-				<a href="/../as/Pixar.swf"> Toy Story Block Game </a>
+				<a href="../as/Pixar.swf"> Toy Story Block Game </a>
 				<br><br>
-				<img src="/../img/pixar.png" height="400" width="500">
+				<img src="../img/pixar.png" height="400" width="500">
 			</div>
 		</div>
-
-		<div class='abouts'>
-			<div class='home-about1 home'>
-				<div class='about-a title'>About Aida</div>
-				<div class='about-a sub'>
-					<p>Aida is currently working on accomplishing a degree of Bachelor of Computer Science at the University of Waterloo with a Business Option and French Minor.
-						She is currently working at IESO as a WEb Developer.</p>
-				</div>
-			</div>
-			
-			<div class='home-about2 home'>
-				<div class='about-a title'>University of Waterloo</div>
-				<div class='uw-pic'>
-					<img src="/../img/uw.png" class='pic' height="300" width="300">
-				</div>
-			</div>
-			
-			<div class='home-about3 home'>
-				<div class='about-a title'>Recent Work</div>
-			</div>
-		</div>
-
-		<div class='footer'>
-			<div class='navigation-footer'>
-			</div>
-			website by: aida zuniga | aida.zuniga.e@gmail.com
-		</div>
-	</div>
-</body>
+		
+		<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+		<script src='../js/bootstrap.js'></script>
+	</body>
 </html>

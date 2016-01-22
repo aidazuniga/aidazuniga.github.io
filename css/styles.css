@@ -1,0 +1,58 @@
+body {
+	background-image: url("../img/background.jpg");
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.about {
+	text-align: center;
+}
+
+#self-pic {
+	border-radius: 50%;
+	width: 250px;
+}
+
+.about-text {
+	/*background-color: rgba(255,0,0,0.5);*/
+	font-size: 20px;
+	color: white;
+}
+
+.navbar {
+	background-color: rgba(255,255,255,0.5);
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: white;
+}
+
+.nav.navbar-nav.navbar-right li a:hover {
+    color: rgb(204, 255, 204);
+}
+
+.navbar-inverse .navbar-brand {
+  color: white;
+}
+
+.navbar-inverse .navbar-brand:hover{
+  color: rgb(204, 255, 204);
+}
+
+.proj-list {
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+/* Resume page */
+
+.resume-outer {
+	text-align: center;
+	/*height: 1000px;*/
+}
+
+object {
+	width: 600px;
+	height: 800px;
+}
