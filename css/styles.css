@@ -3,7 +3,7 @@ body {
 	background-repeat:  no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	bgcolor="black";
+	background-color: black;
 }
 
 .about {
