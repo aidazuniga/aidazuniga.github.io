@@ -153,10 +153,16 @@ body {
 	text-align: center;
 	color: white;
 	background:rgba(255,255,255,0.5);
-	height: 150px;
+	/*height: 150px;*/
+	padding-bottom: 30px;
 	position: absolute;
 	top: 400px;
 	width: 100%;
+}
+
+.intro div {
+	border-bottom: 1px black solid;
+	border-bottom-color: white;
 }
 
 .main-text {
@@ -206,6 +212,7 @@ body {
 .main-about {
 	background-color: white;
 	min-height: 700px;
+	/*box-shadow: 5px 5px 5px black;*/
 }
 
 .main-break {
@@ -288,6 +295,13 @@ body {
     /* custom max width */
     max-width:300px;
 	min-width:300px;
+	
+}
+
+.col-max .proj {
+    /* custom max width */
+    max-width:400px;
+	min-width:400px;
 	
 }
 
