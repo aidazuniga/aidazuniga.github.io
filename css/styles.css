@@ -7,8 +7,28 @@ body {
 }
 
 @font-face {
-	font-family: karlaFont;
-	src: url(../fonts/karla/Karla-Regular.ttf)
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Karla'), local('Karla-Regular'), url(http://themes.googleusercontent.com/static/fonts/karla/v2/QT0qO2FiFD03cwUe_t62t6CWcynf_cDxXwCLxiixG1c.woff) format('woff');
+}
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Karla Bold'), local('Karla-Bold'), url(http://themes.googleusercontent.com/static/fonts/karla/v2/3nZS3BKzlvhkwl4yjCQcjHYhjbSpvc47ee6xR_80Hnw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Karla';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Karla Italic'), local('Karla-Italic'), url(http://themes.googleusercontent.com/static/fonts/karla/v2/ietJ6bjhwzrJL8NSJOc2mgLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
+@font-face {
+  font-family: 'Karla';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Karla Bold Italic'), local('Karla-BoldItalic'), url(http://themes.googleusercontent.com/static/fonts/karla/v2/VZ08RdiotRdV1D0ewK-mxL3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
 }
 
 .about {
@@ -28,7 +48,7 @@ body {
 
 .navbar {
 	background-color: black;
-	font-family: "Karla", sans-serif;
+	font-family: 'Karla', sans-serif;
 }
 
 .nav.navbar-nav.navbar-right li a {
@@ -55,7 +75,7 @@ body {
 
 .navbar {
 	/*font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;*/
-	font-family: karlaFont;
+	font-family: "Karla", sans-serif;
 }
 
 /* Education */
@@ -64,7 +84,7 @@ body {
 	background-color: white;
 	color: black;
 	/*font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;*/
-	font-family: karlaFont;
+	font-family: "Karla", sans-serif;
 	font-size: 20px;
 	border: rgb(0, 0, 0) 2px solid;
 }
@@ -73,7 +93,7 @@ body {
 	background-color: transparent;
 	color: white;
 	/*font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;*/
-	font-family: karlaFont;
+	font-family: "Karla", sans-serif;
 	font-size: 20px;
 	padding-left: 150px;
 }
@@ -102,7 +122,7 @@ body {
 	font-size: 25px;
 	color: white;
 	/*font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;*/
-	font-family: karlaFont;
+	font-family: "Karla", sans-serif;
 }
 
 /* Projects */
@@ -114,7 +134,7 @@ body {
 .proj a {
 	font-size: 20px;
 	/*font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;*/
-	font-family: karlaFont;
+	font-family: "Karla", sans-serif;
 	color: rgb(38, 165, 153);
 }
 
@@ -122,7 +142,7 @@ body {
 .proj a:hover {
 	font-size: 20px;
 	/*font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;*/
-	font-family: karlaFont;
+	font-family: "Karla", sans-serif;
 	color: rgb(26, 0, 8);
 	text-decoration: none;
 }
@@ -215,7 +235,7 @@ body {
 	color: black;
 	width: 100%;
 	font-size: 18px;
-	font-family: karlaFont;
+	font-family: "Karla", sans-serif;
 	text-align: center;
 }
 
@@ -279,7 +299,7 @@ body {
 [class*="col-"]:before {
     display:block;position:relative;
     margin-bottom:8px;
-	font-family:sans-serif;
+	font-family: "Karla", sans-serif;
 	font-size:10px;
     letter-spacing:1px;
     text-align:left;
@@ -302,7 +322,7 @@ body {
 	text-align:center;
 }
 .content:before {
-    font-family:sans-serif;
+    font-family: "Karla", sans-serif;
     font-size:12px;
     letter-spacing:1px;
     color:#747474;
