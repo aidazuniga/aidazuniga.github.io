@@ -298,13 +298,6 @@ body {
 	
 }
 
-.col-max .proj {
-    /* custom max width */
-    max-width:400px;
-	min-width:400px;
-	
-}
-
 /* visual styles */
 [class*="col-"] {
     padding-top:10px;
