@@ -212,7 +212,6 @@ body {
 .main-about {
 	background-color: white;
 	min-height: 700px;
-	/*box-shadow: 5px 5px 5px black;*/
 }
 
 .main-break {
@@ -295,6 +294,13 @@ body {
     /* custom max width */
     max-width:300px;
 	min-width:300px;
+	
+}
+
+.col-max .proj {
+    /* custom max width */
+    max-width:400px;
+	min-width:400px;
 	
 }
 
