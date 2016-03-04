@@ -180,12 +180,12 @@ body {
 
 .main-intro {
 	background-color: transparent;
-	height: 650px;
+	min-height: 700px;
 }
 
 .main-about {
 	background-color: white;
-	min-height: 650px;
+	min-height: 700px;
 }
 
 .main-break {
@@ -196,15 +196,17 @@ body {
 
 .main-exp {
 	background-color: white;
+	min-height: 700px;
 }
 
 .main-teal {
 	background-color: teal;
+	min-height: 700px;
 }
 
 .main-end {
 	background-color: transparent;
-	height: 300px;
+	height: 350px;
 	width: 100%;
 }
 
