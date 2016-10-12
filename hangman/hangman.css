@@ -1,0 +1,161 @@
+body { 
+    font-family:sans-serif; 
+    font-weight:bold; 
+    font-size:20pt;
+}
+/* Outer Div */
+.outer {
+	width: 1160px; 
+}
+
+/* Topmatter */
+.topmatter {
+    height:20px;    
+}
+.bottommatter{
+    //background:#f1f1f1;
+    height:auto;
+}
+/* For the left 'Guess A Letter!' and 'Guessed Letter' boxes. */
+.side-container {
+    margin-top:45px;
+    margin-left:130px;
+    width:250px;
+    text-align:center;
+}
+.container-title {
+    color:#333399;
+}
+.input-area {
+    width:90px;
+    height:40px;
+    margin:auto;
+    padding:3pt;
+    border: 1px #6f5a2d solid;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    border-radius:15px;
+    background:#CCFFCC;
+}
+#letter-input {
+    border:1px #6f5a2d solid;
+    height: 25pt;
+    width:25pt;
+    font-size:14pt;
+    text-align:center;
+}
+.guessed-letter {
+    color:#792c15;
+}
+/* Word Box */
+.word-box {
+    width:270px;
+    height:40px;
+    margin:auto;
+    margin-top:25px;
+    text-align:center;
+}
+.word-display {
+    background:#CCFFCC;
+    border:1px #6f5a2d solid;
+    height:40px;
+    padding:3pt;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    border-radius:15px;
+}
+.shown-letter {
+    border-bottom: 3px #000 solid;
+    padding: 0 2px;
+    margin: 0 2px;
+    color:#1c2025;
+}
+/* Hangman Area */
+.hang-container {
+    margin-top:-10px;
+    margin-right: 90px; 
+    width:200px;
+    height:205px;
+    float:right;
+}
+.scaffolding-top {
+    width:108px;
+    height:5px;
+    background:#332915;
+}
+.scaffolding-left {
+    width:5px;
+    height:200px;
+    background:#332915;
+    float:left;
+}
+.scaffolding-base {
+    width:150px;
+    height:5px;
+    background:#332915;
+}
+.draw-area {
+    width:200px;
+    height:200px;
+    text-align:center;
+}
+.rope {
+    margin:auto;
+    height:25px;
+    width:5px;
+    background:#a59885;
+}
+.head {
+    margin:auto;
+    height:30px;
+    width:30px;
+    background:#EBC299;
+    -webkit-border-radius: 15px;
+    -moz-border-radius:15px;
+    border-radius:15px;
+}
+.armbox {
+    margin:auto;
+    width:100px;
+}
+.leftarm {
+    float:left;
+    height:10px;
+    width:45px;
+    background:#EBC299;
+}
+.rightarm {
+    float:right;
+    height:10px;
+    width:45px;
+    background:#EBC299;
+}
+.torso {
+    margin:auto;
+    width:10px;
+    height:50px;
+    background:#EBC299;
+}
+.legbox {
+    margin:auto;
+    height:60px;
+    width:30px;
+}
+.leftleg {
+    float:left;
+    width:10px;
+    height:60px;
+    background:#EBC299;
+}
+.rightleg {
+    float:right;
+    width:10px;
+    height:60px;
+    background:#EBC299;
+}
+.pelvis {
+    margin:auto;
+    height:10px;
+    width:10px;
+    background:#EBC299;
+}
