@@ -1,25 +1,25 @@
 //HANGMAN
 
-var words = ['aida', 'adversary', 'algorithmn', 'anatomy','around', 'artificial', 'astonishing',
+var words = ['aida', 'athina', 'adversary', 'algorithmn', 'anatomy','around', 'artificial', 'assignment', 'astonishing',
 	'beagle', 'bikini', 'bookworm', 'brick', 'branch',
-    'canal', 'cardio', 'cast', 'cat', 'controller', 'communication', 'computation', 'customs',
-    'doll', 'damange', 'dancing',
+    'canal', 'cardio', 'cast', 'cat', 'controller', 'copyright', 'communication', 'computation', 'customs',
+    'doll', 'damange', 'dancing', 'duplex',
     'eager', 'easygoing', 'elephant', 'encapsulation', 'essential',
     'equine', 'exchange', 'exist', 'express',
     'faculty', 'film', 'fireplace', 'fitness', 'focus', 'french',
     'galaxy', 'gate', 'generally', 'genetics', 'genuine', 'graphics', 'greek',
     'handwriting', 'harvest', 'horses', 'hungry', 'hyphen',
     'ideal', 'illustrate', 'imagination', 'impact', 'import', 'induction', 'infrastructure',
-    'interface', 'inheritance',
+    'interface', 'inheritance', 'inaccessible ', 'instagram',
     'java', 'jelly', 'jewelry', 'jigsaw', 'journey',
-    'kickoff', 'kiwi', 'knowledge', 'knight',
+    'kickoff', 'kiosk', 'kiwi', 'knapsack', 'knowledge', 'knight',
     'language', 'latina', 'latino', 'laughter', 'logic',
     'machine', 'merengue','microwave', 'module', 'motto','music',
     'nearby', 'networks', 'nightclub',
     'object', 'offer', 'optimization', 'oriented',
     'package', 'painter', 'paper', 'parallel', 'pixel', 'pneumonia', 'programming', 'prototype',
     'python', 'plenty', 'psycho',
-    'quaity', 'question', 'quotation',
+    'quality', 'quesadilla', 'question', 'quotation', 'rabbit',
     'ratio', 'rational', 'raw', 'robot', 'rainbow', 'rhythm',
     'sarcastic', 'scale', 'search', 'swing', 'scientist', 'schedule', 'scope', 'scoreboard', 'stress',
     'silicon', 'software', 'subway', 'string', 'sketch',
@@ -29,7 +29,7 @@ var words = ['aida', 'adversary', 'algorithmn', 'anatomy','around', 'artificial'
     'veterinarian', 'view', 'vodka',
     'waltz', 'wander', 'whiskey', 'wrench',
     'youthful',
-    'zizag', 'zombie']
+    'zizag', 'zodiac', 'zombie']
 
 //Choose random words
 function chooseWord(){
