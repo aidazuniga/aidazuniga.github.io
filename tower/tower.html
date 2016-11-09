@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="tower.css">
+<script src="tower.js"></script>
+<title>Tower of Hanoi</title>
+
+</head>
+	<body>
+		<div class='game'>
+			<div class='name' align='center'>Tower of Hanoi</div>
+			<div class='tower-area'>
+				<div id='tower1' class='towers'></div>
+			</div>
+			<div class='tower-area'>
+				<div id='tower2' class='towers'></div>
+			</div>
+			<div class='tower-area'>
+				<div id='tower3' class='towers'></div>
+			</div>
+
+			<div class='base'>
+			</div>
+
+			<div class='selections'>
+				<button class='selectTower button1' onclick="validMove('1')">1</button>
+				<button class='selectTower button2' onclick="validMove('2')">2</button>
+				<button class='selectTower button3' onclick="validMove('3')">3</button>
+			</div>
+               
+			<div class='setupGame'>
+				<div class='selectText'>Select the number of discs to play: </div>
+				<div class='selectOptions'>
+					<select id="selectLevel">
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+					</select>
+				</div>
+				<button class='play gameB' onclick="startGame(document.getElementById('selectLevel').value)">Play</button>
+				<button class='reset gameB' onclick="resetGame()">Reset</button>
+			</div>
+			<div class='gameTimer'>
+				<div class='timer'>
+				</div>
+			</div>
+			<div class='instruction'>
+				<div class='insTitle'>Instructions</div>
+				<div class='ins'>
+					<ul>
+						<li>First select the number of discs you wish to play with (2-9) and press "Play".</li>
+						<li>The goal of the game is to rebuild the original post in a different post.</li>
+						<li>You can only move the disc that is at the top.</li>
+						<li>You cannot put a a disc on top of one that is smaller than it.</li>
+						<li>In order to move the discs, simply click on it.</li>
+						<li>Once a disc has been selected, either:
+							<ul>
+								<li>Click on the post number you wish to put it on.</li>
+								<li>Or press the numbers 1, 2 or 3 on your keyboard to select post.</li>
+							</ul>
+						</li>
+					</ul>
+					Good Luck &#9752;
+				</div>
+			</div>
+		</div>
+	</body>                             
+</html>
