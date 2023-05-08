@@ -157,9 +157,9 @@ fieldset[disabled] .btn-xl.active {
   background-color: white;
 }
 .navbar-custom {
-  /* background-color: #222222; */
+  background-color: #222222;
   border-color: transparent;
-  background-color: #00c800;
+  /* background-color: #00c800; */
 }
 .navbar-custom .navbar-brand {
   color: #b02a1c;
@@ -189,7 +189,6 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
   background-color: #b02a1c;
-  background-color: #00c800;
 }
 .navbar-custom .nav li a {
   /* font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; */
@@ -577,6 +576,14 @@ section h3.section-subheading {
 .team-member img {
   margin: 0 auto;
   border: 7px solid white;
+}
+.contact-info {
+  color: rgb(255, 255, 255);
+  font-family: "PT Mono";
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
 }
 .team-member h4 {
   margin-top: 25px;
